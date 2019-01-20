@@ -1,0 +1,49 @@
+body {
+	text-align: left;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	color: #303030;
+	font-size: 16px;
+	line-height: 23px;
+}
+
+.content {
+	width: 510px;
+	margin-left: 78px;
+	margin-top: 55px;
+	margin-bottom: 100px;
+}
+
+.signature {
+	height: 99px;
+	width: 175px;
+}
+
+.section {
+	margin-top: 60px;
+} 
+
+h2 {
+	font-weight: lighter; 
+	color: #858585;
+	font-size: 2em;
+}
+
+a {
+	color: #F73232;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 20px;
+	line-height: 28px;
+  }
+  .content {
+	width: auto;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 55px;
+	margin-bottom: 100px;
+  }
+}
